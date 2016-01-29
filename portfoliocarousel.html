@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Portfolio Carousel</title> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/3.3.6/readable/bootstrap.min.css">
+    <style rel="stylesheet" type="text/css" href="styles.css"></style>
+  </head>
+<body>
+    
+    <div class="navbar navbar-inverse navbar-static-top"> 
+    <div class="container">  
+    <a href="https://e1ecfc1a58b453d1236f837a888840cc60c16b26.googledrive.com/host/0BxwS9NQAwDMoZlRSY3dJaUdxVFE/Portfolio%20Project/myportfolio.html" class="navbar-brand">Ishani's Virtual Portfolio</a>  
+    <button class= "navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span> 
+        <span class="icon-bar"></span> 
+    </button>
+    <div class= "collapse navbar-collapse navHeaderCollapse"> 
+    
+    <ul class= "nav navbar-nav navbar-right">
+    
+    <li class= "active"><a href="https://e1ecfc1a58b453d1236f837a888840cc60c16b26.googledrive.com/host/0BxwS9NQAwDMoZlRSY3dJaUdxVFE/Portfolio%20Project/myportfolio.html"><i class="fa fa-home"></i> Home </a></li>
+    <li><a  href="https://e1ecfc1a58b453d1236f837a888840cc60c16b26.googledrive.com/host/0BxwS9NQAwDMoZlRSY3dJaUdxVFE/Portfolio%20Project/read.html"><i class="fa fa-newspaper-o"></i> My Article Page </a></li>  
+    <li><a  href="https://e1ecfc1a58b453d1236f837a888840cc60c16b26.googledrive.com/host/0BxwS9NQAwDMoZlRSY3dJaUdxVFE/Portfolio%20Project/portfoliocarousel.html"><i class="fa fa-folder"></i> My Portfolio Carousel</a></li> 
+    
+    <li class="dropdown"> 
+        
+        <a href= "#" class="dropdown-toggle" data-toggle="dropdown">Social Media <b class ="caret"></b></b></a> 
+        <ul class= "dropdown-menu">
+        <li><a  href="https://twitter.com/?lang=en"><i class="fa fa-twitter"></i> Twitter </a></li> 
+        <li><a  href="https://facebook.com/"><i class="fa fa-facebook-official"></i> Facebook </a></li>
+        <li><a  href="https://myspace.com/"><i class="fa fa-hashtag"></i> MySpace </a></li>
+        <li><a href="https://www.linkedin.com/"><i class="fa fa-linkedin"></i> LinkedIn </a></li> 
+        </ul>  
+        
+    </li>
+    <li><a href "#">About <i class="fa fa-picture-o"></i></a></li>
+    <li><a href "#contact" data-toggle="modal"><i class="fa fa-cog"></i> Contact </a></li>
+          </ul> 
+          
+       </div> 
+       
+    </div> 
+    
+</div>  
+ 
+ <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+  <!-- Indicators --> 
+  <ol class="carousel-indicators">
+    <li data-target="#carousel-example-generic" data-slide-to="0" class= "active"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="1"></li>  
+    <li data-target="#carousel-example-generic" data-slide-to="2"></li> 
+    <li data-target="#carousel-example-generic" data-slide-to="3"></li> 
+    <li data-target="#carousel-example-generic" data-slide-to="4"></li> 
+    <li data-target="#carousel-example-generic" data-slide-to="5"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="6"></li>
+ 
+  </ol>
+  <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+    <div class= "item active"-"col-lg-6 col-lg-offset-3">
+     <img src= "img/IshaniMaroon5.jpg" alt="Maroon 5 Band"> 
+     <div class= "carousel-caption">  
+     <h3>Maroon 5</h3>
+     <p>This is a picture of one of my favorite bands.</p>
+      </div> 
+     </div>
+      <div class="item"-"col-lg-6 col-lg-offset-3">
+      <img src="img/IshaniImagineDragons.jpg" alt="Imagine Dragons Band">
+      <div class="carousel-caption"> 
+      <h3>Imagine Dragons</h3>
+      <p>This is the picture of my second most favorite band.</p>
+       </div> 
+      </div>
+      <div class="item"-"col-lg-6 col-lg-offset-3">
+      <img src="img/IshaniMasterChef.jpg" alt="MasterChef Show">
+      <div class="carousel-caption"> 
+      <h3>MasterChef</h3>
+      <p>This is a picture of one of my favorite tv shows.</p>
+       </div> 
+      </div>
+      <div class="item"-"col-lg-6 col-lg-offset-3">
+      <img src="img/IshaniQuantico.jpg" alt="Quantico Show">
+      <div class="carousel-caption"> 
+      <h3>Quantico</h3>
+      <p>This is the current tv show I watch on television.</p>
+       </div> 
+      </div>
+      <div class="item"-"col-lg-6 col-lg-offset-3">
+      <img src="img/IshaniGreekCuisine.jpg" alt="Greek Cuisine">
+      <div class="carousel-caption">  
+      <h3>Greek Cuisine</h3>
+       <p>This is a picture of my favorite type of food.</p>
+       </div> 
+      </div>  
+      <div class="item"-"col-lg-6 col-lg-offset-3">
+      <img src="img/IshaniMexicanCuisine.jpg" alt="Mexican Cuisine">
+      <div class="carousel-caption">  
+      <h3>Mexican Cuisine</h3>
+       <p>Mexican food is also one of my favorite type of foods to eat.</p>
+       </div> 
+      </div> 
+      
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+   </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script> 
+</body>
+</html> 
